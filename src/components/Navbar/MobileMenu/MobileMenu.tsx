@@ -18,7 +18,7 @@ const MobileMenu = () => {
     <>
       <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger asChild>
-          <CiMenuFries className='text-xl text-[var(--primary-white)] stroke-[var(--primary-white)]' />
+          <CiMenuFries className='text-xl text-[var(--primary-orange)] stroke-[var(--primary-orange)] w-6 h-6 cursor-pointer' />
         </SheetTrigger>
         <SheetContent className='bg-[var(--primary-black)] text-[var(--primary-white)] border-none rounded-[8px]'>
           <SheetHeader>
@@ -36,7 +36,7 @@ const MobileMenu = () => {
               onClick={() => setOpen(true)}
             >
               Log In
-              <IoIosArrowDropright className='text-[var(--primary-orange) ' />
+              <IoIosArrowDropright className=' w-4 h-4' />
             </Link>
             <Link
               href={'/register'}
@@ -44,7 +44,7 @@ const MobileMenu = () => {
               onClick={() => setOpen(true)}
             >
               Sing In
-              <IoIosArrowDropright className='text-[var(--primary-orange) ' />
+              <IoIosArrowDropright className='w-4 h-4' />
             </Link>
           </section>
         </SheetContent>
