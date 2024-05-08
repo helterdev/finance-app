@@ -18,7 +18,7 @@ const MobileMenu = () => {
     <>
       <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger asChild>
-          <CiMenuFries className='text-xl text-[var(--primary-orange)] stroke-[var(--primary-orange)] w-6 h-6 cursor-pointer' />
+          <CiMenuFries className='text-xl text-[var(--primary-orange)] stroke-[var(--primary-orange)] w-6 h-6 cursor-pointer relative z-10' />
         </SheetTrigger>
         <SheetContent className='bg-[var(--primary-black)] text-[var(--primary-white)] border-none rounded-[8px]'>
           <SheetHeader>
