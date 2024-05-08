@@ -32,7 +32,7 @@ const MobileMenu = () => {
           <section className='py-8'>
             <Link
               href={'/login'}
-              className=' py-4 flex items-center justify-between border-b border-b-[var(--primary-orange)] font-light text-sm'
+              className=' py-4 flex items-center justify-between border-b border-b-[var(--primary-white)] font-light text-sm hover:border-b-[var(--secundary-orange)] hover:text-[var(--secundary-orange)] transition-all duration-500'
               onClick={() => setOpen(true)}
             >
               Log In
@@ -40,7 +40,7 @@ const MobileMenu = () => {
             </Link>
             <Link
               href={'/register'}
-              className=' py-4 flex items-center justify-between border-b border-b-[var(--primary-orange)] font-light text-sm'
+              className=' py-4 flex items-center justify-between border-b border-b-[var(--primary-white)] font-light text-sm hover:border-b-[var(--secundary-orange)] hover:text-[var(--secundary-orange)] transition-all duration-500'
               onClick={() => setOpen(true)}
             >
               Sing In
