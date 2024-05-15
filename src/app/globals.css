@@ -51,6 +51,12 @@
        0 16px 10px -3px var(--secundary-black);
     }
 
+    .line{
+      width: 90%;
+      height: 1px;
+      border-bottom: 1px solid var(--secundary-orange);
+    }
+
 
 
     /* .button-started:active{
@@ -63,6 +69,12 @@
 
     .header{
       height: calc(100vh - 88px);
+    }
+
+    .header-form{
+      height: calc(100vh - 88px);
+      padding: 20px 0;
+      width: 100%;
     }
 
     @media screen and (max-width: 1000px) {

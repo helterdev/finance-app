@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
 export default function Title() {
   return (
@@ -13,10 +14,13 @@ export default function Title() {
       </h1>
 
       <div className='h-[30%] '>
-        <button className='button-started button-started-mobile'>
+        <Link
+          href={'/register'}
+          className='button-started button-started-mobile'
+        >
           Get Started
           <MdOutlineArrowForwardIos className='text-[14px]' />
-        </button>
+        </Link>
         <i className='fi fi-tr-coins'></i>
       </div>
     </section>
