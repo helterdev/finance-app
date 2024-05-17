@@ -1,6 +1,6 @@
 const Background = () => {
   return (
-    <div className='absolute top-0 h-full w-full flex flex-col justify-between -z-10 opacity-30 py-5 px-2'>
+    <div className='absolute top-0 h-full w-full flex flex-col justify-between opacity-30 py-5 px-2 -z-50'>
       <svg
         xmlns='http://www.w3.org/2000/svg'
         id='Layer_1'
