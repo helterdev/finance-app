@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={inter.className}>
-        {/* <Background /> */}
+      <body className={`${inter.className} z-50`}>
+        <Background />
         <Navbar />
         {children}
       </body>
