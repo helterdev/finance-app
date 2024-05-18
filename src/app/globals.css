@@ -68,7 +68,7 @@
     } */
 
     .header{
-      /* height: calc(100vh - 10%);| */
+      height: calc(100vh - 88px);
     }
 
     .header-form{
