@@ -1,9 +1,9 @@
-import Form from '@/components/Form/Form';
+import LoginForm from "@/components/Form/LoginForm";
 
 export default function Login() {
   return (
     <>
-      <Form path='/login' />
+      <LoginForm />
     </>
   );
 }

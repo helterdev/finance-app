@@ -1,9 +1,9 @@
-import Form from '@/components/Form/Form';
+import RegisterForm from "@/components/Form/RegisterForm";
 
 export default function Register() {
   return (
     <>
-      <Form path='/register' />
+      <RegisterForm />
     </>
   );
 }

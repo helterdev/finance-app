@@ -58,11 +58,11 @@
     }
 
     .header{
-      height: calc(100vh - 88px);
+      height: calc(100dvh - 88px);
     }
 
     .header-form{
-      height: calc(100vh - 88px);
+      height: calc(100dvh - 88px);
       width: 100%;
     }
 
